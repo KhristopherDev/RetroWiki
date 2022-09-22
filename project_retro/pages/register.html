@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../css/register.css">
+	<title>Retro Wiki</title>
+</head>
+<body>
+    <header class="header">
+        <a id="logolink" href="index.html"><div class="logo">
+            <h1 id="logotitle">Retro Wiki</h1>
+            <img id="logoimage" src="../Resources/Images/fccdc3e0b8c53537b66b9aabd3076a31-jogo-retro-com-joystick-cheio-de-tacadas.png" alt="logo">
+        </div></a>
+		<nav style="margin-left: 95%;">
+			<img style="width: 40px;" src="https://static.thenounproject.com/png/462023-200.png" alt="menulogo">
+		</nav>
+    </header>
+
+    <section class="sec1">
+
+        <h1 class="title">Cadastro Retro Wiki</h1>
+        <form>
+            <section class="usertxtinput">
+            <div class="label">
+                <label class="label" for="name"><strong>Nome de usuário:</strong></label>
+                <label class="label" for="email"><strong>Email:</strong></label>
+                <label class="label" for="password"><strong>Senha:</strong></label>
+                <label class="label" for="cfmpassword"><strong>Confirme a senha:</strong></label>
+            </div>
+
+            <div class="input">
+                <input type="text" name="name" class="input" id="name" required>
+                <input type="text" name="email" class="input" id="email" required>
+                <input type="text" name="password" class="input" id="password" required>
+                <input type="text" name="cfmpassword" class="input" id="cfmpassword" required>
+            </div>
+            </section>
+
+            <div class="genre">
+                <label class="genretitle"><strong>Gênero:</strong></label>
+                <div class="check">
+                <label class="checkitem">
+                    <input type="radio" name="devweb" value="frontend">Masculino
+                </label>
+                <label class="checkitem">
+                    <input type="radio" name="devweb" value="backend">Feminino
+                </label>
+                <label class="checkitem">
+                    <input type="radio" name="devweb" value="backend" checked>Samuel Rodriguês
+                </label>
+                </div>
+            </div>
+
+            <div class="button">
+                <button class="confirm">Confirmar</button>
+            </div>
+
+        </form>
+    </section>
+
+</body>
+</html>

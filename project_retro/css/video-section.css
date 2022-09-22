@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+.title {
+	font-family: 'Dela Gothic One', cursive;
+	text-align: center;
+}
+
+.videoL {
+	text-align: center;
+}
+
+.videoR {
+	text-align: center;
+}
+
+.backbutton {
+	text-align: center;
+	max-height: 67px;
+	margin: 0 auto;
+}
